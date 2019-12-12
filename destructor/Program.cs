@@ -23,6 +23,7 @@ namespace destructor
             obj1 = null;
             obj2 = null;
             GC.Collect();
+             Console.WriteLine("I'm here to master");
             Console.ReadKey();
         }
     }
